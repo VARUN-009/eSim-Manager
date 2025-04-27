@@ -1,7 +1,7 @@
 "use client";
 import { ReactNode } from "react";
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 interface LayoutProps {
   children: ReactNode;
