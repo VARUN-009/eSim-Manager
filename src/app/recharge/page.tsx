@@ -5,7 +5,6 @@ import Layout from "../components/Layout";
 import PlanCard from "../components/PlanCard";
 import data from "../data/esimData.json";
 import { ESimData, Plan } from "../types/esim";
-import Link from "next/link";
 
 const RechargePage = () => {
   const [selectedPlan, setSelectedPlan] = useState<Plan | null>(null);
