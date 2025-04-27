@@ -21,7 +21,7 @@ const DashboardContent = () => {
     }
   }, [bookingId]); // Watch bookingId instead of router.query
 
-  if (!esimData) return <Layout>New SIM data will come by API and updated data will be shown here.</Layout>;
+  if (!esimData) return <p>New SIM data will come by API and updated data will be shown here.</p>;
 
   return (
        
