@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation"; // Updated imports
-import Layout from "../components/Layout";
 import UsageBar from "../components/UsageBar";
 import data from "../data/esimData.json";
 import { ESimData } from "../types/esim";
